@@ -3,4 +3,4 @@ uvicorn
 joblib
 scikit-learn
 xgboost
-pydantic
+pydantic[email]
