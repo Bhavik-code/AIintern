@@ -85,8 +85,8 @@ def score_lead(lead: Lead):
         print("Final score:", reranked_score)
 
         return {
-            "initial_score": round(initial_score, 2),
-            "reranked_score": round(reranked_score, 2),
+            "initial_score": float(round(initial_score, 2)),
+            "reranked_score": float(round(reranked_score, 2)),
             "comments": lead.comments
         }
 
